@@ -20,6 +20,24 @@
         <script src="js/vendor/jquery.easings.min.js"></script>
         <script src="js/vendor/jquery.fullPage.js"></script>
         <script src="js/vendor/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+                menu: '#menu'
+            });
+            
+            $('#showExamples').click(function(e){
+                e.stopPropagation();
+                $('#examplesList').toggle();
+            });
+            
+            $('html').click(function(){
+                $('#examplesList').hide();
+            });
+        });
+    </script>
     </head>
     <body>
         <!--[if lt IE 7]>
