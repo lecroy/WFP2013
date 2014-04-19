@@ -20,13 +20,15 @@
         <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
         <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
         <script type="text/javascript">
-            $(document).ready(function() {
-                $('#fullpage').fullpage({
-                    anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-                    'slidesColor': ['#4A6FB1', '#939FAA', '#323539'],
-                    'scrollOverflow': true
+            (function($) {
+                $(document).ready(function() {
+                    $('#fullpage').fullpage({
+                        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+                        'slidesColor': ['#4A6FB1', '#939FAA', '#323539'],
+                        'scrollOverflow': true
+                    });
                 });
-            });
+            })(jQuery);
         </script>
     </head>
     <body>
