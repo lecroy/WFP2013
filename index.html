@@ -12,24 +12,23 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+        <link rel="stylesheet" href="css/jquery.fullPage.css">
+        <link rel="stylesheet" href="css/examples.css">
         <script type="text/javascript" src="//use.typekit.net/wdl3qjs.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script src="js/vendor/jquery.easings.min.js"></script>
-        <script src="js/vendor/jquery.fullPage.js"></script>
-        <script src="js/vendor/jquery.slimscroll.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>    
+        <script type="text/javascript" src="js/vendor/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="examples.js"></script>
         <script type="text/javascript">
-
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                'verticalCentered': false,
-                navigation: true
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+                    'slidesColor': ['#4A6FB1', '#939FAA', '#323539'],
+                    'scrollOverflow': true
+                });
             });
-        });
-    
         </script>
     </head>
     <body>
@@ -54,16 +53,62 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
                 <div id="fullpage">
-                    <div class="section active" id="section0"><h1>WFP USA Annual Report 2013</h1></div>
+
+                    <div class="section " id="section0">
+                        <div class="intro">
+                            <p>Easy and useful! Just make use of the option `scrollOverflow` for it and add the slimScroll plugin! <br></p>
+                        
+                        </div>
+
+                        
+                            
+                    </div>
                     <div class="section" id="section1">
-                        <div class="slide active"><h1>Contents</h1></div>
-                        <div class="slide"><h1>Only text</h1></div>
-                        <div class="slide"><h1>And text</h1></div>
-                        <div class="slide"><h1>And more text</h1></div>
-    </div>
-    <div class="section" id="section2"><h1>A message from World Food Program USA</h1></div>
-    <div class="section" id="section3"><h1>How WFP Works</h1></div>
-</div>
+                        <div class="slide" id="slide1">
+                            <div class="intro">
+                                
+                                <p>
+                                    Eu nec ferri molestie consequat, vel at alia dolore putant. Labore philosophia ut vix. In vis nostrud interesset appellantur, vis et tation feugiat scripserit. Te nec noster suavitate persecuti. Diceret erroribus cu vix, alii omnes ei sit. Sea an corrumpit patrioque, virtute accumsan nominavi et usu, ex mei dolore vocibus incorrupte.
+
+                                    Duo ea saperet tacimates. Sed possim prodesset no, per novum putent doctus ea. Eu mea magna aliquip graecis, pri corpora officiis complectitur ei, lorem saepe consetetur his ad. Meis consulatu ei vis, an altera ocurreret interesset qui.
+
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    enire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+
+                                    Per alienum torquatos eu.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="slide" id="slide2"><h1>Even inside slides</h1></div>
+                        <div class="slide" id="slide3">
+                            <div class="intro">
+                                <h1>Scrolling slide</h1>
+                                <img src="../imgs2/iphone-red.png" alt="iphone" id="iphone-two" />
+                                <p>
+                                    Eu nec ferri molestie consequat, vel at alia dolore putant. Labore philosophia ut vix. In vis nostrud interesset appellantur, vis et tation feugiat scripserit. Te nec noster suavitate persecuti. Diceret erroribus cu vix, alii omnes ei sit. Sea an corrumpit patrioque, virtute accumsan nominavi et usu, ex mei dolore vocibus incorrupte.
+
+                                    Duo ea saperet tacimates. Sed possim prodesset no, per novum putent doctus ea. Eu mea magna aliquip graecis, pri corpora officiis complectitur ei, lorem saepe consetetur his ad. Meis consulatu ei vis, an altera ocurreret interesset qui.
+
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+                                    Eu ponderum comprehensam his, case antiopam pri te. Mel ne partem consequat instructior. Ad dicunt malorum sea, ex qui omnes invenire gubergren. Ius cu autem aliquando, pri vide ornatus perpetua an, no has epicuri verterem. Nam at animal pertinax efficiantur.
+
+                                    Per alienum torquatos eu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section" id="section2">
+                        <div class="intro">
+                            <p>Content is a priority. Even if it is so large :)</p>
+                        </div>
+                    </div>
+                </div>
                    
 
             </div> <!-- #main -->
