@@ -158,11 +158,6 @@ h1 {
     color: #fff;
 }
 
-.title h1 span {
-    font-weight: 300;
-    font-size: 2em;
-}
-
 .title h1 {
     position: absolute;
     text-transform: uppercase;
@@ -172,6 +167,13 @@ h1 {
     top: 200px;
     left: 15%;
 }
+
+.title h1 span {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+
 
 #section2 {
     background-color: #555 !important;
