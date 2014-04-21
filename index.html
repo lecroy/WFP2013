@@ -23,8 +23,8 @@
             (function($) {
                 $(document).ready(function() {
                     $('#fullpage').fullpage({
-                        anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-                        'slidesColor': ['#4A6FB1', '#939FAA', '#323539'],
+                        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+                        'slidesColor': [],
                         'scrollOverflow': true
                     });
                 });
@@ -38,16 +38,16 @@
 
         <div class="header-container">
             <header class="wrapper clearfix">
-                <a href="#firstpage">
+                <a href="#firstPage">
                     <img class="logo" src="img/wfp_logo.svg" alt="WFP USA" width="70" height="70"/>
                 </a>
                 <nav>
                     <ul id="menu">
                         <li data-menuanchor="firstPage" class="active"><a href="#firstPage">1</a></li>
                         <li data-menuanchor="secondPage"><a href="#secondPage">2</a></li>
-                        <li data-menuanchor="3rdPage"><a href="#3rdPage">3</a></li>
-                        <li data-menuanchor="4thpage"><a href="#4thpage">4</a></li>
-                        <li data-menuanchor="5thpage"><a href="#5thpage">5</a></li>
+                        <li data-menuanchor="thirdPage"><a href="#thirdPage">3</a></li>
+                        <li data-menuanchor="fourthPage"><a href="#fourthPage">4</a></li>
+                        <li data-menuanchor="fifthPage"><a href="#fifthPage">5</a></li>
 
                     </ul>
                 </nav>
@@ -161,11 +161,9 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                
-                   
 
-            </div> <!-- #main -->
+                    </div> <!-- #fullPage -->   
+              </div> <!-- #main -->
         </div> <!-- #main-container -->
 
        

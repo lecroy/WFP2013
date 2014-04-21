@@ -251,14 +251,14 @@ blockquote footer {
 #menu {
     position: fixed;
     right: 0px;
-    width: 15%;
+    width: 18%;
 }
 
     nav a {
         float: left;
         display: inline;
         margin: 0 ;
-        padding: 15px 10%;
+        padding: 15px 6%;
         
     }
 
