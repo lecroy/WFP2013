@@ -1,6 +1,6 @@
 f/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-/* * { background-color: rgba(255,0,0,.2); }
+/* { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
@@ -65,71 +65,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-h1 {
-    font-size: 1.6em;
-    font-family: "brandon-grotesque", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
 
-#section0 {
-    background-image: url('../img/slide0_1.jpg');
-    background-size: 100%;
-    text-align: center;
-    color: #fff;
-}
-
-#section1 {
-    background-image: url('../img/slide1_1.jpg');
-    background-size: 100%;
-    color: #fff;
-}
-
-.text-wrapper {
-    margin: 0 auto;
-    width: 50%;
-}
-
-.text-wrapper p {
-    font-size: 1em;
-}
-
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
-body {
-    font: 16px/26px "brandon-grotesque", Helvetica, Helvetica Neue, Arial;
-}
-
-.wrapper {
-    width: 100%;
-    margin: 0;
-}
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    border-bottom: ;
-}
-
-.footer-container,
-.main aside {
-    border-top: ;
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    background: none;
-}
-
-.title {
-    color: #000;
-}
 
 /* ==============
     MOBILE: Menu
@@ -192,15 +128,84 @@ nav a:hover {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.logo {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
 
 
+h1 {
+    font-size: 1.6em;
+    font-family: "brandon-grotesque", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#section0 {
+    background-image: url('../img/slide0_1.jpg');
+    background-size: cover;
+    background-position: right top;
+    text-align: center;
+    color: #fff;
+}
 
 
+#section1 {
+    background-image: url('../img/slide1_1.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.title span {
+    font-weight: 400;
+}
+
+.title {
+    position: absolute;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2em;
+    color: #fff;
+    top: 200px;
+    left: 15%;
+}
+
+#section2 {
+    background-color: #555 !important;
+    color: #000;
+}
+
+#section3 {
+    background-color: #efefef;
+    color: #000;
+}
+
+#section3 .text-wrapper {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+#section4 {
+    background-color: #555;
+}
 
 
+.text-wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.text-wrapper p {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 1em;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
 
 
 

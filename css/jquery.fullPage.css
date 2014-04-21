@@ -64,14 +64,14 @@ html, body {
     margin-top: -38px;
 }
 .controlArrow.prev {
-    left: 15px;
+    left: 25px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
+    border-width: 32px 28px 32px 0;
     border-color: transparent #fff transparent transparent;
 }
 .controlArrow.next {
-    right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
+    right: 25px;
+    border-width: 32px 0 32px 28px;
     border-color: transparent transparent transparent #fff;
 }
 .scrollable {
