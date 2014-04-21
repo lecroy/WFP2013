@@ -157,11 +157,11 @@ h1 {
     color: #fff;
 }
 
-.title span {
+.title h1 span {
     font-weight: 400;
 }
 
-.title {
+.title h1 {
     position: absolute;
     text-transform: uppercase;
     text-align: left;
