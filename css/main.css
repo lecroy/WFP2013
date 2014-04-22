@@ -206,12 +206,18 @@ blockquote footer {
 }
 
 #section4 {
-    background-color: #555;
+    background-image: url('../img/slide5_1.jpg');
+    background-size: cover;
 }
 
 #section4 h1 {
     text-align: center;
     color: #fff;
+}
+
+#section4 h1 span {
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 
