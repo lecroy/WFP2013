@@ -65,44 +65,25 @@ textarea {
     padding: 0.2em 0;
 }
 
-
+/*
 
 /* ==============
     MOBILE: Menu
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
+    display: none;
+    
 }
 
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
 
-    color: white;
-    background: none;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
 
 /* ==============
     MOBILE: Main
    ============== */
 
-.main {
+/* .main {
     padding: 0;
 }
 
@@ -119,6 +100,8 @@ nav a:hover {
     color: white;
     padding: 20px 0;
 }
+
+*/
 
 /* ===============
     ALL: IE Fixes
@@ -173,6 +156,23 @@ blockquote footer {
     font-weight: 300;
 }
 
+.text-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.text-wrapper p {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 1em;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
 #section0 {
     background-image: url('../img/slide0_1.jpg');
     background-size: cover;
@@ -189,20 +189,22 @@ blockquote footer {
     color: #fff;
 }
 
+
 /* SECTION 2 */
 
 #section2 {
-    background-color: #efefef !important;
+    background-color: #dcdcdc !important;
     color: #333;
 }
 
 #section2 .text-wrapper {
     margin-top: 180px;
     margin-bottom: 400px;
+    width: 40%;
 }
 
 .signoff {
-    width: 60%;
+    width: 80%;
 }
 
 .richard {
@@ -218,9 +220,53 @@ blockquote footer {
 /* SECTION 3 */
 
 #section3 {
-    background-color: #333;
+    background-color: #000;
     color: #efefef;
 }
+
+.pillars {
+    margin-left: -100px;
+    margin-right: -100px;
+    height: 150px;
+    font-size: .8em;
+}
+
+#pillar1  {
+    display: inline;
+    float: left;
+    width: 23%;
+    height: 150px;
+    border-bottom: 4px solid #88272b;
+}
+
+#pillar2  {
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    width: 23%;
+    height: 150px;
+    border-bottom: 4px solid #abcb15;
+}
+
+#pillar3  {
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    width: 23%;
+    height: 150px;
+    border-bottom: 4px solid #0088ff;
+}
+
+#pillar4  {
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    width: 23%;
+    height: 150px;
+    border-bottom: 4px solid #53cad1;
+}
+
+
 
 /* SECTION 4 */
 
@@ -268,21 +314,7 @@ blockquote footer {
 }
 
 
-.text-wrapper {
-    margin: 0 auto;
-    width: 50%;
-}
 
-.text-wrapper p {
-    font-family: Helvetica Neue, Arial, sans-serif;
-    font-size: 1em;
-}
-
-
-.wrapper {
-    width: 100%;
-    margin: 0;
-}
 
 
 
@@ -304,7 +336,7 @@ blockquote footer {
 #menu {
     position: fixed;
     right: 0px;
-    width: 18%;
+    width: 240px;
 }
 
     nav a {
@@ -322,6 +354,34 @@ blockquote footer {
     nav li:last-child a {
         margin-right: 0;
     }
+
+    nav ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+}
+
+    nav a {
+        display: block;
+        margin-bottom: ;
+        padding-left: 10%;
+
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+
+        color: white;
+        background: none;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
 
 /* ========================
     INTERMEDIATE: IE Fixes
