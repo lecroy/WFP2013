@@ -349,6 +349,14 @@ blockquote footer {
     background-size: cover;
 }
 
+/* SECTION 5 */
+
+#world-map {
+    position: absolute;
+    top: 0;
+    margin: auto;
+    background-repeat: no-repeat;
+}
 
 
 
