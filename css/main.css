@@ -116,6 +116,9 @@ nav ul {
     left: 20px;
     top: 20px;
     z-index: 100;
+    width: 40px;
+    height: 40px;
+
 }
 
 
@@ -139,15 +142,15 @@ blockquote footer {
 }
 
 .title {
-    margin-left: 24%;
-    width: 50%;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .title h1 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .2em;
-    font-size: 3em;
+    font-size: 1.6em;
     color: #fff;
 }
 
@@ -200,7 +203,6 @@ blockquote footer {
 #section2 .text-wrapper {
     margin-top: 180px;
     margin-bottom: 400px;
-    width: 40%;
 }
 
 .signoff {
@@ -225,47 +227,70 @@ blockquote footer {
 }
 
 .pillars {
-    margin-left: -100px;
-    margin-right: -100px;
-    height: 150px;
-    font-size: .8em;
+    
+    margin-top: 40px;
+    height: 130px;
+    font-size: 1.2em;
 }
 
 #pillar1  {
-    display: inline;
+    color: #a42227;
     float: left;
-    width: 23%;
-    height: 150px;
-    border-bottom: 4px solid #88272b;
+    padding-top: 20px;
+    width: 46%;
+    height: 130px;
+    border-top: 2px solid #a42227;
 }
 
 #pillar2  {
-    display: inline;
+    color: #abcb15;
     float: left;
-    margin-left: 2%;
-    width: 23%;
-    height: 150px;
-    border-bottom: 4px solid #abcb15;
+    padding-top: 20px;
+    margin-left: 6%;
+    width: 46%;
+    height: 130px;
+    border-top: 2px solid #abcb15;
 }
 
 #pillar3  {
-    display: inline;
+    color: #0088ff;
     float: left;
-    margin-left: 2%;
-    width: 23%;
-    height: 150px;
-    border-bottom: 4px solid #0088ff;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 46%;
+    height: 130px;
+    border-top: 2px solid #0088ff;
 }
 
 #pillar4  {
-    display: inline;
+    color: #53cad1;
     float: left;
-    margin-left: 2%;
-    width: 23%;
-    height: 150px;
-    border-bottom: 4px solid #53cad1;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-left: 6%;
+    width: 46%;
+    height: 130px;
+    border-top: 2px solid #53cad1;
 }
 
+#section3 #slide2 {
+    background: #88272b;
+}
+
+#section3 #slide3 {
+    background: #abcb15;
+    color: #333;
+}
+
+#section3 #slide4 {
+    background: #0088ff;
+    color: #fff;
+}
+
+#section3 #slide5 {
+    background: #53cad1;
+    color: #fff;
+}
 
 
 /* SECTION 4 */
@@ -333,10 +358,15 @@ blockquote footer {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-#menu {
-    position: fixed;
-    right: 0px;
-    width: 240px;
+    #menu {
+        position: fixed;
+        right: 0px;
+        width: 240px;
+}
+
+    .logo {
+        width: 70px;
+        height: 70px;
 }
 
     nav a {
@@ -380,6 +410,11 @@ blockquote footer {
     nav a:active  {
         color: #000;
     }
+
+    .title h1 {
+        font-size: 3em;
+    
+}
 
     .text-wrapper {
         width: 50%;
