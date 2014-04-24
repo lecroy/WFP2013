@@ -156,6 +156,11 @@ blockquote footer {
     font-weight: 300;
 }
 
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
 .text-wrapper {
     position: relative;
     margin: 0 auto;
@@ -167,11 +172,6 @@ blockquote footer {
     font-size: 1em;
 }
 
-
-.wrapper {
-    width: 100%;
-    margin: 0;
-}
 
 #section0 {
     background-image: url('../img/slide0_1.jpg');
@@ -409,39 +409,13 @@ blockquote footer {
     .header-container,
     .main aside { 
         position: absolute;
-        background: #000;
+        background: none;
         opacity: 1;
         width: 100%;
         z-index: 99;
     }
 
-/* ============
-    WIDE: Menu
-   ============ */
 
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-}
 
 @media only screen and (min-width: 1140px) {
 
