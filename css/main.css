@@ -358,6 +358,15 @@ blockquote footer {
     height: 100%;
 }
 
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width: 100%;
+   height: 100%; /* your iframe height */
+   top: 1vh;  /* your iframe height */
+   margin-top: -1vh;  /* your iframe height */
+}
+
 
 
 
