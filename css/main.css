@@ -159,7 +159,7 @@ blockquote footer {
 .text-wrapper {
     position: relative;
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
 }
 
 .text-wrapper p {
@@ -380,6 +380,10 @@ blockquote footer {
     nav a:active  {
         color: #000;
     }
+
+    .text-wrapper {
+        width: 50%;
+}
 
     
 
