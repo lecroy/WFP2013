@@ -18,6 +18,7 @@ textarea {
 }
 
 html {
+    font-family: "adobe-garamond-pro", Georgia, serif;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -171,7 +172,7 @@ blockquote footer {
 }
 
 .text-wrapper p {
-    font-family: Helvetica Neue, Arial, sans-serif;
+    font-family: "adobe-garamond-pro", Georgia, serif;
     font-size: 1em;
 }
 
