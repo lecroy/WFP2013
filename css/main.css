@@ -206,6 +206,11 @@ blockquote footer {
     margin-bottom: 400px;
 }
 
+#section2 .text-wrapper p{
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
 .signoff {
     width: 80%;
 }
