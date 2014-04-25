@@ -19,8 +19,8 @@ textarea {
 
 html {
     font-family: "adobe-garamond-pro", Georgia, serif;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.2em;
 }
 
 ::-moz-selection {
@@ -115,7 +115,7 @@ nav ul {
 .logo {
     position: fixed;
     left: 20px;
-    top: 60px;
+    top: 15px;
     z-index: 100;
     width: 40px;
     height: 40px;
@@ -151,6 +151,7 @@ blockquote footer {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .2em;
+    line-height: 1.4em;
     font-size: 1.6em;
     color: #fff;
 }
@@ -362,17 +363,35 @@ blockquote footer {
     height: 100%;
 }
 
-#mp-embed-bar {
-    height: 36px;
+
+/* SECTION 6 */
+
+#section6 {
+    background: #ddd;
+    color: #222;
 }
 
+/* SECTION 7 */
 
+#section7 {
+    background: #ddd;
+    color: #222;
+}
 
+#section7 li span {
+    font-family: 'brandon-grotesque', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .8em;
+    color: #0088ff;
+}
 
+/* SECTION 8 */
 
-
-
-
+#section8 {
+    background: #ddd;
+    color: #222;
+}
 
 
 
