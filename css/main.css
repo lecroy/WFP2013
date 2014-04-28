@@ -354,13 +354,18 @@ blockquote footer {
 
 #section5 {
     background: #222;
+    overflow: hidden;
 }
 
-#world-map {
+#worldmap {
     position: relative;
-    top: 19px;
-    width: 100%;
-    height: 100%;
+    
+}
+
+#section5 #slide3 {
+    background-image: url('../img/slide6_washington.jpg');
+    background-size: cover;
+
 }
 
 
@@ -371,11 +376,21 @@ blockquote footer {
     color: #222;
 }
 
+
+
 /* SECTION 7 */
 
 #section7 {
     background: #ddd;
     color: #222;
+}
+
+#section7 p {
+    font-size: 1.4em;
+}
+
+#section7 li {
+    color: #555;
 }
 
 #section7 li span {
@@ -389,11 +404,17 @@ blockquote footer {
 /* SECTION 8 */
 
 #section8 {
-    background: #ddd;
+    background-image: url('../img/slide9_1.jpg');
+    background-size: cover;
     color: #222;
 }
 
+/* SECTION 9 */
 
+#section9 {
+    background: #ddd;
+    color: #222;
+}
 
 /* ==========================================================================
    Media Queries
