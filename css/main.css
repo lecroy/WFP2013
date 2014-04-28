@@ -362,8 +362,67 @@ blockquote footer {
     
 }
 
+#section5 #slide2 {
+    color: #efefef;
+
+}
+
 #section5 #slide3 {
     background-image: url('../img/slide6_washington.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide4 {
+    background-image: url('../img/slide6_nairobi.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide5 {
+    background-image: url('../img/slide6_kenya.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide6 {
+    background-image: url('../img/slide6_portland.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide7 {
+    background-image: url('../img/slide6_ruralkenya.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide8 {
+    background-image: url('../img/slide6_mali.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide9 {
+    background-image: url('../img/slide6_philippines.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide10 {
+    background-image: url('../img/slide6_lebanon.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide11 {
+    background-image: url('../img/slide6_cambodia.jpg');
+    background-size: cover;
+
+}
+
+#section5 #slide12 {
+    background-image: url('../img/slide6_rwanda.jpg');
     background-size: cover;
 
 }
