@@ -130,6 +130,14 @@ h1 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: .8em;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0088ff;
+}
+
 blockquote {
     text-align: center;
     font-family: "brandon-grotesque", sans-serif;
@@ -475,6 +483,13 @@ blockquote footer {
     color: #222;
 }
 
+/* SECTION 10 */
+
+#section10 .text-wrapper {
+    margin-top: 180px;
+    margin-bottom: 400px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -506,7 +521,7 @@ blockquote footer {
     nav a {
         float: left;
         display: inline;
-        padding: 15px 20px;
+        padding: 15px 12px;
         text-decoration: none;
         font-weight: bold;
         color: #efefef;
