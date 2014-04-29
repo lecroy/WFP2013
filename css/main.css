@@ -483,6 +483,24 @@ blockquote footer {
     color: #222;
 }
 
+#section9 h1 {
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#section9 #slide1 {
+    text-align: center;
+}
+
+#section9 #slide1 h1 {
+    font-size: 2.4em;
+}
+
+#section9 #slide1 h1 span {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 /* SECTION 10 */
 
 #section10 .text-wrapper {
@@ -502,7 +520,7 @@ blockquote footer {
     #menu {
         position: fixed;
         right: 0px;
-        width: 340px;
+        width: 410px;
         font-family: 'brandon-grotesque', Arial, sans-serif;
 }
 
