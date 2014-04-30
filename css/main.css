@@ -293,6 +293,14 @@ blockquote footer {
     background: #88272b;
 }
 
+#section3 #slide2 a {
+    font-family: 'brandon-grotesque', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: #c63d43;
+}
+
 #section3 #slide3 {
     background: #abcb15;
     color: #333;
