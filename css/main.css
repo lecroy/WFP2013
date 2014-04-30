@@ -501,13 +501,37 @@ blockquote footer {
     font-weight: 300;
 }
 
+#section9 .text-wrapper {
+    text-align: center;
+}
+
 /* SECTION 10 */
 
 #section10 .text-wrapper {
     margin-top: 180px;
     margin-bottom: 400px;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
+#section10 li {
+    list-style-type: none;
+}
+
+/* SECTION 11 */
+
+#section11 {
+    background-image: url('../img/thankyou.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+#section11 h1 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
