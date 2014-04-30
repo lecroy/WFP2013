@@ -143,6 +143,7 @@ blockquote {
     text-align: center;
     font-family: "brandon-grotesque", sans-serif;
     font-size: 1.2em;
+    line-height: 1.4em;
     font-weight: 300;
     color: #fff;
 }
@@ -317,11 +318,6 @@ blockquote footer {
 
 #section4 h1 {
     color: #fff;
-}
-
-#section4 blockquote {
-    font-size: 1.4em;
-    line-height: 1.2em;
 }
 
 #section4 h1 span {
