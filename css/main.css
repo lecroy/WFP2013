@@ -239,13 +239,7 @@ blockquote footer {
 
 #section3 {
     background-color: #000;
-    color: #efefef;
-}
-
-#section3 #slide1 h1 {
-    font-size: 2em;
-    letter-spacing: .2em;
-    text-align: center;
+    color: #fff;
 }
 
 .pillars {
