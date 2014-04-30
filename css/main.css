@@ -295,6 +295,8 @@ blockquote footer {
 
 #section3 #slide2 a {
     font-family: 'brandon-grotesque', Arial, sans-serif;
+    font-weight: 700;
+    font-size: .8em;
     text-transform: uppercase;
     letter-spacing: .1em;
     text-decoration: none;
