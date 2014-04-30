@@ -289,17 +289,20 @@ blockquote footer {
     border-top: 2px solid #53cad1;
 }
 
-#section3 #slide2 {
-    background: #88272b;
-}
-
-#section3 #slide2 a {
+#section3 .slide a{
     font-family: 'brandon-grotesque', Arial, sans-serif;
     font-weight: 700;
     font-size: .8em;
     text-transform: uppercase;
     letter-spacing: .1em;
     text-decoration: none;
+}
+
+#section3 #slide2 {
+    background: #88272b;
+}
+
+#section3 #slide2 a {
     color: #e5545a;
 }
 
@@ -308,15 +311,28 @@ blockquote footer {
     color: #333;
 }
 
+#section3 #slide3 a {
+    color: #e7ff76;
+}
+
 #section3 #slide4 {
     background: #0088ff;
     color: #fff;
+}
+
+#section3 #slide4 a {
+    color: #a6d5ff;
 }
 
 #section3 #slide5 {
     background: #53cad1;
     color: #fff;
 }
+
+#section3 #slide5 a {
+    color: #c0f7fa;
+}
+
 
 
 /* SECTION 4 */
