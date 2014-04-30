@@ -319,6 +319,11 @@ blockquote footer {
     color: #fff;
 }
 
+#section4 blockquote {
+    font-size: 1.4em;
+    line-height: 1.2em;
+}
+
 #section4 h1 span {
     font-weight: 300;
     text-transform: uppercase;
