@@ -146,6 +146,7 @@ blockquote {
     line-height: 1.4em;
     font-weight: 300;
     color: #fff;
+    width: 100%;
 }
 
 blockquote footer {
@@ -214,7 +215,7 @@ blockquote footer {
 
 #section2 .text-wrapper {
     margin-top: 180px;
-    margin-bottom: 400px;
+    margin-bottom: 500px;
 }
 
 #section2 .text-wrapper p{
@@ -223,7 +224,7 @@ blockquote footer {
 }
 
 .signoff {
-    width: 80%;
+    width: 90%;
 }
 
 .richard {
@@ -360,6 +361,16 @@ blockquote footer {
     font-size: 2.4em
 }
 
+#section4 .slide a{
+    font-family: 'brandon-grotesque', Arial, sans-serif;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: #fff;
+}
+
 #section4 #slide2 {
     background-image: url('../img/slide5_2.jpg');
     background-size: cover;
@@ -387,12 +398,20 @@ blockquote footer {
     overflow: hidden;
 }
 
-#section5 h1 {
+#section5 #slide1 h1 {
     position: absolute;
     right: 37%;
     font-size: 2.4em;
     text-transform: uppercase;
-    top: 80px;
+    top: 90px;
+    color: #fff;
+    z-index: 100;
+}
+
+#section5 #slide1 p {
+    position: absolute;
+    top: 160px;
+    right: 37%;
     color: #fff;
     z-index: 100;
 }
@@ -407,7 +426,8 @@ blockquote footer {
 }
 
 #section5 #slide2 {
-    color: #efefef;
+    background: #0088ff;
+    color: #fff;
 
 }
 
