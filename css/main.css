@@ -229,19 +229,48 @@ blockquote footer {
 
 .richard {
     display: inline;
-    float: left;
+    float: right;
 }
 
 .hunter {
     display: inline;
-    float: right;
+    float: left;
 }
 
 /* SECTION 3 */
 
 #section3 {
-    background-color: #000;
+    background: #333;
     color: #fff;
+}
+
+#section3 h1 {
+    line-height: 1.2em;
+    text-align: center;
+}
+
+#section3 #slide1 {
+    text-align: center;
+}
+
+#section3 #slide1 h1 {
+    font-size: 2.4em;
+}
+
+#section3 #slide1 h1 span {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#section3 .text-wrapper {
+    text-align: center;
+}
+
+/* SECTION 4 */
+
+#section4 {
+    background-color: #dcdcdc;
+    color: #333;
 }
 
 .pillars {
@@ -290,77 +319,6 @@ blockquote footer {
     border-top: 2px solid #53cad1;
 }
 
-#section3 .slide a{
-    font-family: 'brandon-grotesque', Arial, sans-serif;
-    font-weight: 700;
-    font-size: .8em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    text-decoration: none;
-}
-
-#section3 #slide2 {
-    background: #88272b;
-}
-
-#section3 #slide2 a {
-    color: #e5545a;
-}
-
-#section3 #slide3 {
-    background: #abcb15;
-    color: #333;
-}
-
-#section3 #slide3 a {
-    color: #e7ff76;
-}
-
-#section3 #slide4 {
-    background: #0088ff;
-    color: #fff;
-}
-
-#section3 #slide4 a {
-    color: #a6d5ff;
-}
-
-#section3 #slide5 {
-    background: #53cad1;
-    color: #fff;
-}
-
-#section3 #slide5 a {
-    color: #c0f7fa;
-}
-
-
-
-/* SECTION 4 */
-
-#section4 {
-    background-image: url('../img/slide5_1.jpg');
-    background-size: cover;
-}
-
-#section4 h1 {
-    color: #fff;
-}
-
-#section4 h1 span {
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-#section4 .slide p {
-    color: #fff;
-}
-
-#section4 #slide1 h1 {
-    text-align: center;
-    font-size: 2.4em
-}
-
 #section4 .slide a{
     font-family: 'brandon-grotesque', Arial, sans-serif;
     font-weight: 700;
@@ -368,55 +326,162 @@ blockquote footer {
     text-transform: uppercase;
     letter-spacing: .1em;
     text-decoration: none;
-    color: #fff;
 }
 
 #section4 #slide2 {
-    background-image: url('../img/slide5_2.jpg');
-    background-size: cover;
+    background: #88272b;
+}
+
+#section4 #slide2 a {
+    color: #e5545a;
 }
 
 #section4 #slide3 {
-    background-image: url('../img/slide5_3.jpg');
-    background-size: cover;
+    background: #abcb15;
+    color: #333;
+}
+
+#section4 #slide3 a {
+    color: #e7ff76;
 }
 
 #section4 #slide4 {
-    background-image: url('../img/slide5_4.jpg');
-    background-size: cover;
+    background: #0088ff;
+    color: #fff;
+}
+
+#section4 #slide4 a {
+    color: #a6d5ff;
 }
 
 #section4 #slide5 {
-    background-image: url('../img/slide5_5.jpg');
-    background-size: cover;
+    background: #53cad1;
+    color: #fff;
 }
+
+#section4 #slide5 a {
+    color: #c0f7fa;
+}
+
+
 
 /* SECTION 5 */
 
 #section5 {
+    background-image: url('../img/slide5_1.jpg');
+    background-size: cover;
+}
+
+#section5 h1 {
+    color: #fff;
+}
+
+#section5 h1 span {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#section5 .slide p {
+    color: #fff;
+}
+
+#section5 #slide1 h1 {
+    text-align: center;
+    font-size: 2.4em
+}
+
+#section5 .slide a{
+    font-family: 'brandon-grotesque', Arial, sans-serif;
+    font-weight: 700;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#section5 #slide2 {
+    background-image: url('../img/slide5_2.jpg');
+    background-size: cover;
+}
+
+#section5 #slide3 {
+    background-image: url('../img/slide5_3.jpg');
+    background-size: cover;
+}
+
+#section5 #slide4 {
+    background-image: url('../img/slide5_4.jpg');
+    background-size: cover;
+}
+
+#section5 #slide5 {
+    background-image: url('../img/slide5_5.jpg');
+    background-size: cover;
+}
+
+/* SECTION 6 */
+
+#section6 {
     background: #222;
     overflow: hidden;
 }
 
-#section5 #slide1 h1 {
+#section6 #slide1 .text-wrapper {
     position: absolute;
-    right: 37%;
-    font-size: 2.4em;
+    left: 25%;
+    text-align: center;
+    height: 100%;
+    z-index: 100;
+}
+
+#section6 #slide1 h1 {
+    margin-top: 140px;
+    font-size: 1.8em;
     text-transform: uppercase;
-    top: 90px;
     color: #fff;
-    z-index: 100;
+    
 }
 
-#section5 #slide1 p {
+#legend {
     position: absolute;
-    top: 160px;
-    right: 37%;
+    bottom: 70px;
+    left: 32%;
+    width: 100%;
+    height: 16px;
     color: #fff;
-    z-index: 100;
 }
 
-#section5 h1 span {
+#legend p {
+    float: left;
+    margin-left: 15px;
+    font-size: .8em;
+    line-height: 0px;
+}
+
+.square {
+    position: relative;
+    background: #0088ff;
+    left: -10px;
+    width: 18px;
+    height: 18px;
+    top: 22px;
+
+}
+
+.circle {
+    position: relative;
+    background: #fff200;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    z-index: 0;
+    left: 145px;
+    top: 6px;
+    
+}
+
+#section6 h1 span {
     font-weight: 300;
 }
 
@@ -425,78 +490,73 @@ blockquote footer {
     
 }
 
-#section5 #slide2 {
+#section6 #slide2 {
     background: #0088ff;
     color: #fff;
 
 }
 
-#section5 #slide3 {
+#section6 #slide3 {
     background-image: url('../img/slide6_washington.jpg');
     background-size: cover;
+    color: #fff;
 
 }
 
-#section5 #slide4 {
+#section6 #slide4 {
     background-image: url('../img/slide6_nairobi.jpg');
     background-size: cover;
+    color: 333;
 
 }
 
-#section5 #slide5 {
+#section6 #slide5 {
     background-image: url('../img/slide6_kenya.jpg');
     background-size: cover;
-
+    color: #fff;
 }
 
-#section5 #slide6 {
+#section6 #slide6 {
     background-image: url('../img/slide6_portland.jpg');
     background-size: cover;
 
 }
 
-#section5 #slide7 {
+#section6 #slide7 {
     background-image: url('../img/slide6_ruralkenya.jpg');
     background-size: cover;
 
 }
 
-#section5 #slide8 {
+#section6 #slide8 {
     background-image: url('../img/slide6_mali.jpg');
     background-size: cover;
 
 }
 
-#section5 #slide9 {
+#section6 #slide9 {
     background-image: url('../img/slide6_philippines.jpg');
     background-size: cover;
+    color: 333;
 
 }
 
-#section5 #slide10 {
+#section6 #slide10 {
     background-image: url('../img/slide6_lebanon.jpg');
     background-size: cover;
 
 }
 
-#section5 #slide11 {
+#section6 #slide11 {
     background-image: url('../img/slide6_cambodia.jpg');
     background-size: cover;
 
 }
 
-#section5 #slide12 {
+#section6 #slide12 {
     background-image: url('../img/slide6_rwanda.jpg');
     background-size: cover;
 
-}
-
-
-/* SECTION 6 */
-
-#section6 {
-    background: #ddd;
-    color: #222;
 }
 
 
@@ -504,62 +564,17 @@ blockquote footer {
 /* SECTION 7 */
 
 #section7 {
-    background: #ddd;
-    color: #222;
-}
-
-#section7 li {
-    color: #555;
-}
-
-#section7 li span {
-    font-family: 'brandon-grotesque', Arial, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: .8em;
-    color: #0088ff;
-}
-
-/* SECTION 8 */
-
-#section8 {
     background-image: url('../img/slide9_1.jpg');
     background-size: cover;
     color: #222;
 }
 
-/* SECTION 9 */
 
-#section9 {
-    background: #333;
-    color: #fff;
-}
 
-#section9 h1 {
-    line-height: 1.2em;
-    text-align: center;
-}
 
-#section9 #slide1 {
-    text-align: center;
-}
+/* SECTION 8 */
 
-#section9 #slide1 h1 {
-    font-size: 2.4em;
-}
-
-#section9 #slide1 h1 span {
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-#section9 .text-wrapper {
-    text-align: center;
-}
-
-/* SECTION 10 */
-
-#section10 .text-wrapper {
+#section8 .text-wrapper {
     margin-top: 180px;
     margin-bottom: 400px;
     color: #333;
@@ -567,22 +582,38 @@ blockquote footer {
     line-height: 1.6em;
 }
 
-#section10 li {
+#section8 li {
     list-style-type: none;
 }
 
-/* SECTION 11 */
+/* SECTION 9 */
 
-#section11 {
+#section9 {
     background-image: url('../img/thankyou.jpg');
     background-size: cover;
     color: #fff;
 }
 
-#section11 h1 {
+#section9 h1 {
     position: absolute;
     bottom: 40px;
     right: 40px;
+}
+
+
+.photo-atr {
+    position: absolute;
+    bottom: 0px;
+    font-size: .7em;
+    opacity: .5;
+}
+
+.dark {
+    color: #333;
+}
+
+.light {
+    color: #fff;
 }
 /* ==========================================================================
    Media Queries
@@ -596,7 +627,7 @@ blockquote footer {
     #menu {
         position: fixed;
         right: 0px;
-        width: 410px;
+        width: 330px;
         font-family: 'brandon-grotesque', Arial, sans-serif;
 }
 
@@ -629,8 +660,8 @@ blockquote footer {
     }
 
 
-    nav a:active  {
-        color: #000;
+    .active  {
+        
         text-decoration: underline;
     }
 
