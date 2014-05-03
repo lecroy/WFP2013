@@ -660,7 +660,7 @@ blockquote footer {
     }
 
 
-    .active  {
+    #menu li a.active { }  {
         
         text-decoration: underline;
     }
