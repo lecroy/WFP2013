@@ -582,7 +582,7 @@ blockquote footer {
 #section7 {
     background-image: url('../img/slide9_1.jpg');
     background-size: cover;
-    color: #222;
+    color: #fff;
 }
 
 #section7 .slide a{
@@ -592,7 +592,7 @@ blockquote footer {
     text-transform: uppercase;
     letter-spacing: .1em;
     text-decoration: none;
-    color: #0088ff;
+    color: #fff;
 }
 
 
