@@ -329,7 +329,8 @@ blockquote footer {
 }
 
 #section4 #slide2 {
-    background: #88272b;
+    background-image: url('../img/pillar1.jpg');
+    color: #fff;
 }
 
 #section4 #slide2 a {
@@ -337,7 +338,7 @@ blockquote footer {
 }
 
 #section4 #slide3 {
-    background: #abcb15;
+    background-image: url('../img/pillar2.jpg');
     color: #333;
 }
 
@@ -346,7 +347,7 @@ blockquote footer {
 }
 
 #section4 #slide4 {
-    background: #0088ff;
+    background-image: url('../img/pillar3.jpg');
     color: #fff;
 }
 
@@ -355,7 +356,7 @@ blockquote footer {
 }
 
 #section4 #slide5 {
-    background: #53cad1;
+    background-image: url('../img/pillar4.jpg');
     color: #fff;
 }
 
@@ -457,6 +458,19 @@ blockquote footer {
     margin-left: 15px;
     font-size: .8em;
     line-height: 0px;
+
+}
+
+#countries::before {
+    content: "\25a0";
+    font-size: 32px;
+    color: #0088ff;
+}
+
+#cases::before {
+    content: "\25cf";
+    font-size: 28px;
+    color: #fff200;
 }
 
 .square {
@@ -519,6 +533,7 @@ blockquote footer {
 #section6 #slide6 {
     background-image: url('../img/slide6_portland.jpg');
     background-size: cover;
+    color: #fff;
 
 }
 
@@ -550,6 +565,7 @@ blockquote footer {
 #section6 #slide11 {
     background-image: url('../img/slide6_cambodia.jpg');
     background-size: cover;
+    color: #fff;
 
 }
 
@@ -629,6 +645,7 @@ blockquote footer {
         right: 0px;
         width: 330px;
         font-family: 'brandon-grotesque', Arial, sans-serif;
+        font-weight: 300;
 }
 
     .logo {
@@ -661,7 +678,7 @@ blockquote footer {
 
 
     #menu li.active a {
-        
+        font-weight: 700;
         text-decoration: underline;
     }
 
