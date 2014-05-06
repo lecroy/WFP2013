@@ -722,7 +722,7 @@ th {
   table.responsive-table td:nth-child(2):before{
     position: absolute;
     left: .5em;
-    font-weight: bold;
+    
   }
   
     table.responsive-table tr,
@@ -732,7 +732,7 @@ th {
     table.responsive-table tr{
         position: relative;
         margin-bottom: 1em;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     }
     table.responsive-table td{
         border-top: none;
