@@ -274,8 +274,9 @@ blockquote footer {
 }
 
 .pillars {
-    margin-top: 40px;
+    margin-top: 20px;
     height: 130px;
+    line-height: 1.2em;
     font-size: 1.2em;
 }
 
@@ -285,7 +286,8 @@ blockquote footer {
     float: left;
     padding-top: 20px;
     padding-left: 14px;
-    width: 44%;
+    padding-right: 14px;
+    width: 42%;
     height: 130px;
     border-top: 2px solid #a42227;
 }
@@ -296,8 +298,9 @@ blockquote footer {
     float: left;
     padding-top: 20px;
     padding-left: 14px;
+    padding-right: 14px;
     margin-left: 4%;
-    width: 44%;
+    width: 42%;
     height: 130px;
     border-top: 2px solid #abcb15;
 }
@@ -308,8 +311,9 @@ blockquote footer {
     float: left;
     padding-top: 20px;
     padding-left: 14px;
+    padding-right: 14px;
     margin-top: 20px;
-    width: 44%;
+    width: 42%;
     height: 130px;
     border-top: 2px solid #0088ff;
 }
@@ -320,9 +324,10 @@ blockquote footer {
     float: left;
     padding-top: 20px;
     padding-left: 14px;
+    padding-right: 14px;
     margin-top: 20px;
     margin-left: 4%;
-    width: 44%;
+    width: 42%;
     height: 130px;
     border-top: 2px solid #53cad1;
 }
