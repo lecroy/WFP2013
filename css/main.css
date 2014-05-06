@@ -280,41 +280,49 @@ blockquote footer {
 }
 
 #pillar1  {
-    color: #a42227;
+    background: #a42227;
+    color: #fff;
     float: left;
     padding-top: 20px;
-    width: 46%;
+    padding-left: 14px;
+    width: 44%;
     height: 130px;
     border-top: 2px solid #a42227;
 }
 
 #pillar2  {
-    color: #abcb15;
+    background: #abcb15;
+    color: #fff;
     float: left;
     padding-top: 20px;
-    margin-left: 6%;
-    width: 46%;
+    padding-left: 14px;
+    margin-left: 4%;
+    width: 44%;
     height: 130px;
     border-top: 2px solid #abcb15;
 }
 
 #pillar3  {
-    color: #0088ff;
+    background: #0088ff;
+    color: #fff;
     float: left;
     padding-top: 20px;
+    padding-left: 14px;
     margin-top: 20px;
-    width: 46%;
+    width: 44%;
     height: 130px;
     border-top: 2px solid #0088ff;
 }
 
 #pillar4  {
-    color: #53cad1;
+    background: #53cad1;
+    color: #fff;
     float: left;
     padding-top: 20px;
+    padding-left: 14px;
     margin-top: 20px;
-    margin-left: 6%;
-    width: 46%;
+    margin-left: 4%;
+    width: 44%;
     height: 130px;
     border-top: 2px solid #53cad1;
 }
@@ -596,11 +604,24 @@ blockquote footer {
 }
 
 
-
-
 /* SECTION 8 */
 
-#section8 .text-wrapper {
+#section8 {
+    background-image: url('../img/financial.jpg');
+    background-repeat: repeat-xy,;
+}
+
+#section8 h2 {
+    color: #fff;
+}
+
+/* SECTION 9 */
+
+#section9 {
+    background: #e0e0e0;
+}
+
+#section9 .text-wrapper {
     margin-top: 180px;
     margin-bottom: 400px;
     color: #333;
@@ -608,19 +629,19 @@ blockquote footer {
     line-height: 1.6em;
 }
 
-#section8 li {
+#section9 li {
     list-style-type: none;
 }
 
-/* SECTION 9 */
+/* SECTION 10 */
 
-#section9 {
+#section10 {
     background-image: url('../img/thankyou.jpg');
     background-size: cover;
     color: #fff;
 }
 
-#section9 h1 {
+#section10 h1 {
     position: absolute;
     bottom: 40px;
     right: 40px;
@@ -642,6 +663,81 @@ blockquote footer {
 .light {
     color: #fff;
 }
+
+
+/* TABLES */
+
+table th,
+table td{
+  text-align: left;
+}
+table.layout{
+  width: 100%;
+  border-collapse: collapse;
+}
+table.display{
+  margin: 1em 0;
+}
+table.display th,
+table.display td{
+  border: 1px solid #e0e0e0;
+  padding: .5em 1em;
+}
+
+table.display th{ background: #0088ff; }
+table.display td{ background: #fff; }
+
+table.responsive-table{
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+  color: #fff;
+}
+
+@media (max-width: 30em){
+    table.responsive-table{
+      box-shadow: none;  
+    }
+    table.responsive-table thead{
+      display: none; 
+    }
+  table.display th,
+  table.display td{
+    padding: .5em;
+  }
+    
+  table.responsive-table td:nth-child(1):before{
+    content: 'Number';
+  }
+  table.responsive-table td:nth-child(2):before{
+    content: 'Name';
+  }
+  table.responsive-table td:nth-child(1),
+  table.responsive-table td:nth-child(2){
+    padding-left: 25%;
+  }
+  table.responsive-table td:nth-child(1):before,
+  table.responsive-table td:nth-child(2):before{
+    position: absolute;
+    left: .5em;
+    font-weight: bold;
+  }
+  
+    table.responsive-table tr,
+    table.responsive-table td{
+        display: block;
+    }
+    table.responsive-table tr{
+        position: relative;
+        margin-bottom: 1em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    }
+    table.responsive-table td{
+        border-top: none;
+    }
+    
+}
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -654,7 +750,7 @@ blockquote footer {
     #menu {
         position: fixed;
         right: 0px;
-        width: 330px;
+        width: 360px;
         font-family: 'brandon-grotesque', Arial, sans-serif;
         font-weight: 300;
 }
