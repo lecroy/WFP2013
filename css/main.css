@@ -714,10 +714,10 @@ th {
   }
     
   table.responsive-table td:nth-child(1):before{
-    content: 'Number';
+    content: 'Expense';
   }
   table.responsive-table td:nth-child(2):before{
-    content: 'Name';
+    content: '2013:';
   }
   table.responsive-table td:nth-child(1),
   table.responsive-table td:nth-child(2){
