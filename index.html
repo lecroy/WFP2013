@@ -20,22 +20,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.slimscroll.js"></script>
         <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
-        <script type="text/javascript">
-            (function($) {
-                $(document).ready(function() {
-                    $('#fullpage').fullpage({
-                        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage', 'ninthPage', 'tenthPage'],
-                        'slidesColor': [],
-                        'scrollOverflow': true,
-                        afterLoad: function(anchorLink, index){
-                            console.log(index)
-                            $('#menu li').removeClass('active')
-                            $('#menu li:eq('+(index-1)+')').addClass('active')
-                         },
-                    });
-                });
-            })(jQuery);
-        </script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -5202,7 +5187,7 @@
                                             <tr>
                                                 <th>Program Expenses</th>
                                                 <th>2013</th>
-                                                <th>2012</th>
+                                                
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -5210,33 +5195,26 @@
                                             <tr>
                                                 <td class="left">Grants to WFP</td>
                                                 <td class="thisyear">$18,825,324</td>
-                                                <td class="lastyear">
-                                                    $19,339,608
-                                                </td>
+                                                
+                                                    
                                             </tr>
 
                                             <tr>
                                                 <td class="left">Other program expenses</td>
                                                 <td class="thisyear">$2,231,537</td>
-                                                <td class="lastyear">
-                                                     $2,641,663
-                                                </td>
+                                                
                                             </tr>
 
                                             <tr>
                                                 <td class="left">G &amp; A</td>
                                                 <td class="thisyear"> $673,321</td>
-                                                <td class="lastyear">
-                                                    $287,396
-                                                </td>
+                                                
                                             </tr>
 
                                             <tr>
                                                 <td class="left">Fundraising</td>
                                                 <td class="thisyear">$2,161,370</td>
-                                                <td class="lastyear">
-                                                    $1,966,484
-                                                </td>
+                                                
                                             </tr>
 
                                             <tr>
@@ -5244,9 +5222,7 @@
                                                 <td class="thisyear">
                                                     $23,891,552 
                                                 </td>
-                                                <td class="lastyear">
-                                                     $24,235,151</a>
-                                                </td>
+                                                
                                             </tr>
 
                                         </tbody>
@@ -5255,95 +5231,12 @@
                         </div>
                         <div class="slide" id="slide2">
                             <div class="text-wrapper">
-                                <h1>Grants by Region</h1>
-                                    <table class="layout display responsive-table">
-                                        <thead>
-                                            <tr>
-                                                <th>Region</th>
-                                                <th>Amount</th>
-                                                <th>Percentage</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr>
-                                                <td class="left">Central American & Caribbean</td>
-                                                <td class="amount">$1,612,194</td>
-                                                <td class="percentage">
-                                                    0.085639643
-                                                </td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td class="left">East Asia &amp; The Pacific</td>
-                                                <td class="amount">$7,369,400</td>
-                                                <td class="percentage">
-                                                    0.391462032
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="left">Middle East &amp; North Africa</td>
-                                                <td class="amount">$474,947</td>
-                                                <td class="percentage">
-                                                    0.025229135
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="left">South America</td>
-                                                <td class="amount">$2,259,954</td>
-                                                <td class="percentage">
-                                                    0.120048631
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="left">Sub-Saharan Africa</td>
-                                                <td class="amount">$7,108,829</td>
-                                                <td class="percentage">
-                                                    0.377620558
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <div id="chart_div1"></div>
                             </div>
                         </div>
                         <div class="slide" id="slide3">
                             <div class="text-wrapper">
-                                <h1>Statement of Functional Expenses</h1>
-                                    <table class="layout display responsive-table">
-                                        <thead>
-                                            <tr>
-                                                <th>Department</th>
-                                                <th>Percentage</th>
-                                                <th>Amount</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-
-                                            <tr>
-                                                <td class="left">Program</td>
-                                                <td class="percentage">0.881758031</td>
-                                                <td class="amount">
-                                                    $21,138,954
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="left">G &amp; A</td>
-                                                <td class="percentage">0.028085883 </td>
-                                                <td class="amount">
-                                                      $673,321
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td class="left">Fundraising</td>
-                                                <td class="percentage">0.090156086</td>
-                                                <td class="amount">
-                                                     $2,161,37
-                                                </td>
-                                            </tr>
-                                         </tbody>
-                                    </table>
+                             <div id="chart_div2"></div>   
                             </div>
                         </div>
                     </div>
@@ -5486,7 +5379,113 @@
             </div> <!-- #main -->
     </div> <!-- #main-container -->
 
+        <script type="text/javascript">
+            (function($) {
+                $(document).ready(function() {
+                    $('#fullpage').fullpage({
+                        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'eighthPage', 'ninthPage', 'tenthPage'],
+                        'slidesColor': [],
+                        'scrollOverflow': true,
+                        afterLoad: function(anchorLink, index){
+                            console.log(index)
+                            $('#menu li').removeClass('active')
+                            $('#menu li:eq('+(index-1)+')').addClass('active')
+                         },
+                    });
+                });
+            })(jQuery);
+        </script>
 
+        <!-- PIE CHART 1 -->
+
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+
+          // Load the Visualization API and the piechart package.
+          google.load('visualization', '1.0', {'packages':['corechart']});
+
+          // Set a callback to run when the Google Visualization API is loaded.
+          google.setOnLoadCallback(drawChart);
+
+          // Callback that creates and populates a data table,
+          // instantiates the pie chart, passes in the data and
+          // draws it.
+          function drawChart() {
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Region');
+            data.addColumn('number', 'Amount');
+            data.addRows([
+              ['Central America & Caribbean', 1612194],
+              ['East Asia & The Pacific', 7369400],
+              ['Middle East & North Africa', 474947],
+              ['South America', 2259954],
+              ['Sub-Saharan Africa', 7108829]
+            ]);
+
+            // Set chart options
+            var options = {'title':'Grants by Region',
+                           'width':600,
+                           'height':450,
+                           'colors':['#999','#53cad1', '#abcb15', '#88272b', '#0088ff'],
+                           'backgroundColor': '#333333',
+                           'pieHole': 0.3,
+                           'fontName': 'Helvetica',
+                           'titleTextStyle': {color: '#fff', fontSize: 22},
+                           'legend': {position: 'left', alignment: 'center', textStyle: {color: 'white', fontSize: 14}}};
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div1'));
+            chart.draw(data, options);
+          }
+        </script>
+
+
+        <!-- PIE CHART 2 -->
+
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+
+          // Load the Visualization API and the piechart package.
+          google.load('visualization', '1.0', {'packages':['corechart']});
+
+          // Set a callback to run when the Google Visualization API is loaded.
+          google.setOnLoadCallback(drawChart);
+
+          // Callback that creates and populates a data table,
+          // instantiates the pie chart, passes in the data and
+          // draws it.
+          function drawChart() {
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Department');
+            data.addColumn('number', 'Amount');
+            data.addRows([
+              ['Program', 21138954],
+              ['G & A', 673321],
+              ['Fundraising', 216137],
+              
+            ]);
+
+
+            // Set chart options
+            var options = {'title':'Functional Expenses by Department',
+                           'width':600,
+                           'height':450,
+                           'colors':['#0088ff','#abcb15', '#88272b'],
+                           'backgroundColor': '#333333',
+                           'pieHole': 0.3,
+                           'fontName': 'Helvetica',
+                           'titleTextStyle': {color: '#fff', fontSize: 22},
+                           'legend': {position: 'left', alignment: 'center', textStyle: {color: 'white', fontSize: 14}}};
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div2'));
+            chart.draw(data, options);
+          }
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
