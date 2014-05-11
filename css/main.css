@@ -612,7 +612,7 @@ blockquote footer {
 /* SECTION 8 */
 
 #section8 {
-    background-image: url('../img/financial.jpg');
+    background: #333;
     background-repeat: repeat-xy,;
 }
 
@@ -632,11 +632,17 @@ blockquote footer {
     margin-bottom: 400px;
     color: #333;
     font-size: 1.2em;
-    line-height: 1.6em;
+    line-height: 1.3em;
 }
 
 #section9 li {
+    font-size: .8em;
     list-style-type: none;
+}
+
+#section9 #slide4 li {
+    font-size: .7em;
+    line-height: 1.2em;
 }
 
 /* SECTION 10 */
