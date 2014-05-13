@@ -773,9 +773,18 @@ th {
     #menu {
         position: fixed;
         right: 0px;
-        width: 360px;
+        width: 400px;
         font-family: 'brandon-grotesque', Arial, sans-serif;
         font-weight: 300;
+}
+
+    #menu p {
+        display: inline;
+        float: left;
+        color: #efefef;
+        margin-top: 15px;
+        margin-right: 13px;
+        
 }
 
     .logo {
@@ -793,7 +802,7 @@ th {
     nav a {
         float: left;
         display: inline;
-        padding: 15px 12px;
+        padding: 15px 10px;
         text-decoration: none;
         font-weight: bold;
         color: #efefef;
