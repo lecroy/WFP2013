@@ -449,6 +449,7 @@ blockquote footer {
     font-size: 1.8em;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: .1em;
     z-index: 100;
     
 }
@@ -747,6 +748,19 @@ th {
     }
     
 }
+
+#section8 #chart_div1 {
+    position: relative;
+    left: 20%;
+    top: 30px;
+
+}
+
+#section8 #chart_div2 {
+    position: relative;
+    left: 20%;
+    top: 30px;
+    }
 /* ==========================================================================
    Media Queries
    ========================================================================== */
