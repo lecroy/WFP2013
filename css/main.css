@@ -133,8 +133,9 @@ nav ul {
 
 .tooltip:hover:after {
     background: #333;
-    background: rgba(0,0,0,.8);
-    border-radius: 5px;
+    background: rgba(0,0,0,.5);
+    font-weight: 300;
+    font-size: .8em;
     top: 40px;
     color: #fff;
     content: attr(title);
