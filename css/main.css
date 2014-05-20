@@ -305,7 +305,8 @@ blockquote footer {
 }
 
 #pillar1  {
-    background: #a42227;
+    background-image: url('../img/pillar1-thumb.jpg');
+    background-size: 300px 150px;
     color: #fff;
     float: left;
     padding-top: 20px;
@@ -313,11 +314,12 @@ blockquote footer {
     padding-right: 14px;
     width: 42%;
     height: 130px;
-    border-top: 2px solid #a42227;
+    
 }
 
 #pillar2  {
-    background: #abcb15;
+    background-image: url('../img/pillar2-thumb.jpg');
+    background-size: 300px 150px;
     color: #fff;
     float: left;
     padding-top: 20px;
@@ -326,11 +328,12 @@ blockquote footer {
     margin-left: 4%;
     width: 42%;
     height: 130px;
-    border-top: 2px solid #abcb15;
+    
 }
 
 #pillar3  {
-    background: #0088ff;
+    background-image: url('../img/pillar3-thumb.jpg');
+    background-size: 300px 150px;
     color: #fff;
     float: left;
     padding-top: 20px;
@@ -339,11 +342,12 @@ blockquote footer {
     margin-top: 20px;
     width: 42%;
     height: 130px;
-    border-top: 2px solid #0088ff;
+    
 }
 
 #pillar4  {
-    background: #53cad1;
+    background-image: url('../img/pillar4-thumb.jpg');
+    background-size: 300px 150px;
     color: #fff;
     float: left;
     padding-top: 20px;
@@ -353,7 +357,7 @@ blockquote footer {
     margin-left: 4%;
     width: 42%;
     height: 130px;
-    border-top: 2px solid #53cad1;
+    
 }
 
 #section4 .slide a{
