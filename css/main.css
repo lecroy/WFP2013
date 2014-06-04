@@ -297,6 +297,10 @@ blockquote footer {
     color: #333;
 }
 
+#section4 #slide1 .text-wrapper {
+    width: 80%;
+}
+
 #section4 #slide2 .text-wrapper {
     width: 50%;
 }
