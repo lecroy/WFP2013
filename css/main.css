@@ -204,7 +204,7 @@ blockquote footer {
 .text-wrapper {
     position: relative;
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
 }
 
 .text-wrapper p {
@@ -297,9 +297,7 @@ blockquote footer {
     color: #333;
 }
 
-#section4 .text-wrapper {
-    width: 80%;
-}
+
 
 .pillars {
     margin-top: 20px;
@@ -879,8 +877,10 @@ th {
     
 }
 
-    .text-wrapper {
-        width: 50%;
+    
+
+.text-wrapper {
+    width: 80%;
 }
 
     
